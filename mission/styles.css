@@ -1,0 +1,72 @@
+/* General Page Styling */
+body {
+    background-color: #f4f4f4;
+    font-family: 'Times New Roman', Times, serif; /* Serif for body text */
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* The White Card Container */
+#container {
+    background-color: white;
+    width: 100%;
+    max-width: 800px;
+    padding: 80px;
+    border: 1px solid #ccc;
+    text-align: left; /* Text is left-aligned, but container is centered */
+}
+
+/* Header Section */
+header {
+    text-align: center;
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-size: 2.2rem;
+    letter-spacing: 4px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.subtitle {
+    font-family: Arial, Helvetica, sans-serif; /* Sans-serif for the school name */
+    color: #006eb6; /* BYU-Idaho Official Blue */
+    letter-spacing: 3px;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+/* Content Text */
+.intro-text {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+}
+
+.list-heading {
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+/* List Styling */
+ol {
+    padding-left: 40px;
+}
+
+ol li {
+    margin-bottom: 25px;
+    padding-left: 10px;
+    font-size: 1.1rem;
+}
+
+/* Logo Alignment */
+.logo {
+    display: block;
+    margin: 60px auto 0;
+    width: 150px;
+}
